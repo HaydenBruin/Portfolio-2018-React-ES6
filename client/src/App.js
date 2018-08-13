@@ -11,24 +11,30 @@ class App extends Component {
         },
         projects: [
             {
-                title: "Future Blossom",
-                desc: "A bespoke web application built to improve gay dating in London",
+                title: "Contact Energy",
+                desc: "Bringing a team of people's ideas to life with Contact Energy's rebranded web presence",
                 buttontext: "Take a look",
-                image: "/media/future-blossom.png",
-                slug: "future-blossom"
-            },{
-                title: "Andelin Guesthouse",
-                desc: "Creating an awesome booking experience for a beautiful property located in Devonport, Auckland.",
-                buttontext: "Take a look",
-                image: "/media/andelin-guesthouse.png",
-                slug: "andelin-guesthouse"
-            },{
-                title: "Rocket SEO - Marketing Template",
-                desc: "A rocket themed marketing landing page - because why not?",
-                buttontext: "Take a look",
-                image: "/media/rocket-landing.png",
-                slug: "rocket-landing"
-            }      
+                image: "/media/contact.jpg",
+                slug: "contact-energy"
+            }//,{
+            //     title: "Future Blossom",
+            //     desc: "A bespoke web application built to improve gay dating in London",
+            //     buttontext: "Take a look",
+            //     image: "/media/future-blossom.png",
+            //     slug: "future-blossom"
+            // },{
+            //     title: "Andelin Guesthouse",
+            //     desc: "Creating an awesome booking experience for a beautiful property located in Devonport, Auckland.",
+            //     buttontext: "Take a look",
+            //     image: "/media/andelin-guesthouse.png",
+            //     slug: "andelin-guesthouse"
+            // },{
+            //     title: "Rocket SEO - Marketing Template",
+            //     desc: "A rocket themed marketing landing page - because why not?",
+            //     buttontext: "Take a look",
+            //     image: "/media/rocket-landing.png",
+            //     slug: "rocket-landing"
+            // }      
         ]
     }
 

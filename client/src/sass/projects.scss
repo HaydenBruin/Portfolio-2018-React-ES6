@@ -4,15 +4,46 @@
     position: relative;
 
     .project {
-        display: none;
         position: absolute;
         top: 0px;
         left: 0px;
         width: 100%;
-        height: 100%;
+        height: 100vh;
+        opacity: 0;
+        
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        -o-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
 
         &.active {
-            display: block;
+            opacity: 1;
+
+            width: 100%;
+            height: 100vh;
+
+            z-index: 10;
+        
+            -webkit-transition: all 1s ease-in-out;
+            -moz-transition: all 1s ease-in-out;
+            -o-transition: all 1s ease-in-out;
+            transition: all 1s ease-in-out;
+        }
+
+        .details {
+            text-align: center;
+            padding-top: 140px;
+
+            h1 {
+                color: #FFF;
+                font-size: 48px;
+                margin-bottom: 30px;
+            }
+            p {
+                color: #FFF;
+                font-size: 18px;
+                margin-bottom: 30px;
+            }
         }
     }
 }
